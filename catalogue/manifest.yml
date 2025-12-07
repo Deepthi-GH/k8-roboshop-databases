@@ -45,7 +45,7 @@ spec:
           requests:
             cpu: "100m"
             memory: "128Mi"
-          limite:
+          limits:
             cpu: "100m"  
             memory: "128Mi"
         readinessProbe:
