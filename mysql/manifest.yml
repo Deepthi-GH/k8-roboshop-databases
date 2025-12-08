@@ -64,7 +64,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: kattika/mysql:v1
+        image: kattika/mysql
         volumeMounts:
         - name: mysql
           mountPath: /data
